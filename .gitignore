@@ -1,0 +1,12 @@
+@'
+.venv/
+__pycache__/
+*.pyc
+data/
+models/
+reports/
+mlflow.db
+mlartifacts/
+mlruns/
+.vscode/
+'@ | Set-Content -Encoding utf8 .gitignore
